@@ -45,19 +45,19 @@ should fulfill the concepts of:
 
 - If the above error condition does not hold, date delivered of the order will be set.
 4. Store has the following responsibilities:
-
+```
 Charge customer
  Cancel payment
  Ship order
  Deliver order
-
+```
 5. Customer has the following responsibilities:
-
+```
  Save order
  Submit order
  Cancel order
  Delete order
-
+```
 6. Implement a class namely Shopping, which shows the state change of order by making a
 customer place an order. The methods of the customer and the store will help determining
 the next state of the order.
