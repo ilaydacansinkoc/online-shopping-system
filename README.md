@@ -15,7 +15,8 @@ should fulfill the concepts of:
     Orders that are delivered to its customer successfully will be recorded into a file namely
     _orders.json_.
 3. State diagram of the order is given below in Figure 1. The order will be set in each state
-    incrementally and the next state is determined according to the following specifications:\n
+    incrementally and the next state is determined according to the following specifications:
+       
         **Saved:**
           - id, tracking number, customer id, customer name, shipping address and weight
              will be set. Id will be the next number of the latest recorded order’s id. Tracking
