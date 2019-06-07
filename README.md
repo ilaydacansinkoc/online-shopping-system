@@ -46,7 +46,7 @@ should fulfill the concepts of:
 - If the above error condition does not hold, date delivered of the order will be set.
 4. Store has the following responsibilities:
 ```
-Charge customer
+ Charge customer
  Cancel payment
  Ship order
  Deliver order
